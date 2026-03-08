@@ -148,7 +148,5 @@ Contributions are welcome! Please open an issue or submit a pull request.
 5. Open a Pull Request
 
 ---
-
-<p align="center">
-  Made with ❤️ for a safer internet
-</p>
+## Author
+Vision KC
