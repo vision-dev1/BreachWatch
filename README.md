@@ -11,6 +11,7 @@
 **BreachWatch** is a dark web email leak checker that lets users verify whether their email address has been exposed in known data breaches. It is powered by the [XposedOrNot](https://xposedornot.com/) breach database API.
 
 </div>
+
 ---
 
 ## 📸 Preview
