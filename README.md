@@ -154,5 +154,6 @@ Contributions are welcome! Please open an issue or submit a pull request.
 ---
 ## Author
 Vision KC
-[Github](https://github-dev1/vision-dev1)
+
+[Github](https://github-dev1/vision-dev1)<br>
 [Portfolio](https://visionkc.com.np)
