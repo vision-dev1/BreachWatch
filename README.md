@@ -1,3 +1,5 @@
+<div align="center">
+
 # 🛡️ BreachWatch
 
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
@@ -8,6 +10,7 @@
 
 **BreachWatch** is a dark web email leak checker that lets users verify whether their email address has been exposed in known data breaches. It is powered by the [XposedOrNot](https://xposedornot.com/) breach database API.
 
+</div>
 ---
 
 ## 📸 Preview
