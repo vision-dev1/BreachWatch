@@ -72,6 +72,7 @@ This tool is for educational and personal security awareness. Always follow best
 
 ---
 
-**Made By [Vision](https://visionkc.com.np)**
+## LICENSE 
+This tool is under MIT License. See the [LICENSE](LICENSE) file for details
 
 ---
