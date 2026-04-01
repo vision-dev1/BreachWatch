@@ -2,8 +2,6 @@
 
 **BreachWatch** is a modern, responsive, and professional web application designed to help users check if their email address has been exposed in known data breaches. Powered by the **XposedOrNot** API, it provides real-time security insights with a focus on privacy and user experience.
 
-![BreachWatch Logo](static/img/logo.png)
-
 ## 🚀 Features
 
 -   **Real-Time Scanning**: Instantly checks multiple breach databases.
