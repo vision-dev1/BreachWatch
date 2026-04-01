@@ -76,3 +76,6 @@ This tool is for educational and personal security awareness. Always follow best
 This tool is under MIT License. See the [LICENSE](LICENSE) file for details
 
 ---
+
+## Author
+Vision KC
