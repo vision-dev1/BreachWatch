@@ -78,8 +78,8 @@ This tool is under MIT License. See the [LICENSE](LICENSE) file for details
 ---
 
 ## Author
-Vision KC
-[Github](https://github.com/vision-dev1)
+Vision KC<br>
+[Github](https://github.com/vision-dev1)<br>
 [Portfolio](https://visionkc.com.np)
 
 ---
