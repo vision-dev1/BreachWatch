@@ -28,7 +28,7 @@
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/BreachWatch.git
+    git clone https://github.com/vision-dev1/BreachWatch.git
     cd BreachWatch
     ```
 
@@ -43,14 +43,7 @@
     pip install -r requirements.txt
     ```
 
-4.  **Set up environment variables**:
-    Create a `.env` file in the root directory:
-    ```env
-    XPOSEDORNOT_API_KEY=your_api_key_here (optional)
-    DEBUG=True
-    ```
-
-5.  **Run the application**:
+4.  **Run the application**:
     ```bash
     python app.py
     ```
