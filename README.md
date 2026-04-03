@@ -66,7 +66,7 @@ This tool is for educational and personal security awareness. Always follow best
 ---
 
 ## LICENSE 
-This tool is under GPL-3 License. See the [LICENSE](LICENSE) file for details
+This tool is under GPL-3.0 License. See the [LICENSE](LICENSE) file for details
 
 ---
 
