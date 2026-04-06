@@ -1,3 +1,4 @@
+// Codes By Visionnn
 document.addEventListener('DOMContentLoaded', () => {
     const checkForm = document.getElementById('checkForm');
     const emailInput = document.getElementById('emailInput');
