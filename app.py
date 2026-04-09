@@ -27,9 +27,22 @@ def is_valid_email(email):
     regex = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
     return re.match(regex, email) is not None
 
+MAX_STORAGE_ENTRIES = 10000
+
 def check_rate_limit(ip):
     """Check if the IP has exceeded the rate limit."""
     now = time.time()
+    
+    # Garbage collection against memory leaks for inactive IPs
+    if len(rate_limit_storage) > MAX_STORAGE_ENTRIES:
+        stale_ips = []
+        for k, timestamps in rate_limit_storage.items():
+            active_timestamps = [t for t in timestamps if now - t < RATE_LIMIT_WINDOW]
+            if not active_timestamps:
+                stale_ips.append(k)
+        for k in stale_ips:
+            del rate_limit_storage[k]
+
     if ip not in rate_limit_storage:
         rate_limit_storage[ip] = []
     
@@ -140,4 +153,3 @@ def check_email():
 
 if __name__ == '__main__':
     app.run(debug=os.getenv("DEBUG", "False") == "True", port=5000)
-
